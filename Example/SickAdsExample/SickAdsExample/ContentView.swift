@@ -1,4 +1,4 @@
-import GrocksAdsKit
+import SickAdsKit
 import SwiftUI
 
 struct ContentView: View {
@@ -6,7 +6,7 @@ struct ContentView: View {
 
     var body: some View {
         VStack(spacing: 24) {
-            Text("GrocksAds Example")
+            Text("SickAds Example")
                 .font(.title2.weight(.semibold))
 
             Text(lastResult)
@@ -31,9 +31,9 @@ struct ContentView: View {
     }
 
     private func presentAd() {
-        GrocksAds.setApiKey("example-key")
+        SickAds.setApiKey("example-key")
 
-        GrocksAds.showAd { result in
+        SickAds.showAd { result in
             switch result {
             case .success:
                 lastResult = "Успех! Реклама закрыта!"

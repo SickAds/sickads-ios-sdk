@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B1010001 /* GrocksAdsExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1010001 /* GrocksAdsExampleApp.swift */; };
+		B1010001 /* SickAdsExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1010001 /* SickAdsExampleApp.swift */; };
 		B1010002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1010002 /* ContentView.swift */; };
 		B1010003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1010003 /* Assets.xcassets */; };
-		B1010004 /* GrocksAdsKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1010005 /* GrocksAdsKit.xcframework */; };
-		B1010005 /* GrocksAdsKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F1010005 /* GrocksAdsKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B1010004 /* SickAdsKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1010005 /* SickAdsKit.xcframework */; };
+		B1010005 /* SickAdsKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F1010005 /* SickAdsKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -21,7 +21,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				B1010005 /* GrocksAdsKit.xcframework in Embed Frameworks */,
+				B1010005 /* SickAdsKit.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -29,11 +29,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		F1010001 /* GrocksAdsExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrocksAdsExampleApp.swift; sourceTree = "<group>"; };
+		F1010001 /* SickAdsExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SickAdsExampleApp.swift; sourceTree = "<group>"; };
 		F1010002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F1010003 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F1010004 /* GrocksAdsExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrocksAdsExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F1010005 /* GrocksAdsKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GrocksAdsKit.xcframework; path = ../../GrocksAdsKit.xcframework; sourceTree = "<group>"; };
+		F1010004 /* SickAdsExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SickAdsExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1010005 /* SickAdsKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SickAdsKit.xcframework; path = ../../SickAdsKit.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1010004 /* GrocksAdsKit.xcframework in Frameworks */,
+				B1010004 /* SickAdsKit.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,26 +51,26 @@
 		G1010001 = {
 			isa = PBXGroup;
 			children = (
-				F1010005 /* GrocksAdsKit.xcframework */,
-				G1010002 /* GrocksAdsExample */,
+				F1010005 /* SickAdsKit.xcframework */,
+				G1010002 /* SickAdsExample */,
 				G1010003 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		G1010002 /* GrocksAdsExample */ = {
+		G1010002 /* SickAdsExample */ = {
 			isa = PBXGroup;
 			children = (
-				F1010001 /* GrocksAdsExampleApp.swift */,
+				F1010001 /* SickAdsExampleApp.swift */,
 				F1010002 /* ContentView.swift */,
 				F1010003 /* Assets.xcassets */,
 			);
-			path = GrocksAdsExample;
+			path = SickAdsExample;
 			sourceTree = "<group>";
 		};
 		G1010003 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F1010004 /* GrocksAdsExample.app */,
+				F1010004 /* SickAdsExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,9 +78,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		T1010001 /* GrocksAdsExample */ = {
+		T1010001 /* SickAdsExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = T1010002 /* Build configuration list for PBXNativeTarget "GrocksAdsExample" */;
+			buildConfigurationList = T1010002 /* Build configuration list for PBXNativeTarget "SickAdsExample" */;
 			buildPhases = (
 				S1010001 /* Sources */,
 				FR101001 /* Frameworks */,
@@ -91,9 +91,9 @@
 			);
 			dependencies = (
 			);
-			name = GrocksAdsExample;
-			productName = GrocksAdsExample;
-			productReference = F1010004 /* GrocksAdsExample.app */;
+			name = SickAdsExample;
+			productName = SickAdsExample;
+			productReference = F1010004 /* SickAdsExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -111,7 +111,7 @@
 					};
 				};
 			};
-			buildConfigurationList = PR101002 /* Build configuration list for PBXProject "GrocksAdsExample" */;
+			buildConfigurationList = PR101002 /* Build configuration list for PBXProject "SickAdsExample" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -124,7 +124,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				T1010001 /* GrocksAdsExample */,
+				T1010001 /* SickAdsExample */,
 			);
 		};
 /* End PBXProject section */
@@ -145,7 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1010001 /* GrocksAdsExampleApp.swift in Sources */,
+				B1010001 /* SickAdsExampleApp.swift in Sources */,
 				B1010002 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -206,11 +206,11 @@
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/../../GrocksAdsKit.xcframework/ios-arm64",
-					"$(PROJECT_DIR)/../../GrocksAdsKit.xcframework/ios-arm64_x86_64-simulator",
+					"$(PROJECT_DIR)/../../SickAdsKit.xcframework/ios-arm64",
+					"$(PROJECT_DIR)/../../SickAdsKit.xcframework/ios-arm64_x86_64-simulator",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Grocks Ads Example";
+				INFOPLIST_KEY_CFBundleDisplayName = "Sick Ads Example";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -218,7 +218,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.grocks.GrocksAdsExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sickads.SickAdsExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -241,11 +241,11 @@
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/../../GrocksAdsKit.xcframework/ios-arm64",
-					"$(PROJECT_DIR)/../../GrocksAdsKit.xcframework/ios-arm64_x86_64-simulator",
+					"$(PROJECT_DIR)/../../SickAdsKit.xcframework/ios-arm64",
+					"$(PROJECT_DIR)/../../SickAdsKit.xcframework/ios-arm64_x86_64-simulator",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Grocks Ads Example";
+				INFOPLIST_KEY_CFBundleDisplayName = "Sick Ads Example";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -253,7 +253,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.grocks.GrocksAdsExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sickads.SickAdsExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -268,7 +268,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		PR101002 /* Build configuration list for PBXProject "GrocksAdsExample" */ = {
+		PR101002 /* Build configuration list for PBXProject "SickAdsExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				PBC101001 /* Debug */,
@@ -277,7 +277,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		T1010002 /* Build configuration list for PBXNativeTarget "GrocksAdsExample" */ = {
+		T1010002 /* Build configuration list for PBXNativeTarget "SickAdsExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				TBC101001 /* Debug */,

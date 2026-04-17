@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "T1010001"
-               BuildableName = "GrocksAdsExample.app"
-               BlueprintName = "GrocksAdsExample"
-               ReferencedContainer = "container:GrocksAdsExample.xcodeproj">
+               BuildableName = "SickAdsExample.app"
+               BlueprintName = "SickAdsExample"
+               ReferencedContainer = "container:SickAdsExample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -44,9 +44,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "T1010001"
-            BuildableName = "GrocksAdsExample.app"
-            BlueprintName = "GrocksAdsExample"
-            ReferencedContainer = "container:GrocksAdsExample.xcodeproj">
+            BuildableName = "SickAdsExample.app"
+            BlueprintName = "SickAdsExample"
+            ReferencedContainer = "container:SickAdsExample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -61,9 +61,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "T1010001"
-            BuildableName = "GrocksAdsExample.app"
-            BlueprintName = "GrocksAdsExample"
-            ReferencedContainer = "container:GrocksAdsExample.xcodeproj">
+            BuildableName = "SickAdsExample.app"
+            BlueprintName = "SickAdsExample"
+            ReferencedContainer = "container:SickAdsExample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -1,7 +1,7 @@
 import SwiftUI
 
 @main
-struct GrocksAdsExampleApp: App {
+struct SickAdsExampleApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

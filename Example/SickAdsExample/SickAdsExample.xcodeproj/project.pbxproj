@@ -3,20 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 60;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		B1010001 /* SickAdsExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1010001 /* SickAdsExampleApp.swift */; };
 		B1010002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1010002 /* ContentView.swift */; };
 		B1010003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1010003 /* Assets.xcassets */; };
+		B1010004 /* SickAdsKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1010005 /* SickAdsKit.xcframework */; };
+		B1010005 /* SickAdsKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F1010005 /* SickAdsKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CF101001 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B1010005 /* SickAdsKit.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		F1010001 /* SickAdsExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SickAdsExampleApp.swift; sourceTree = "<group>"; };
 		F1010002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F1010003 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1010004 /* SickAdsExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SickAdsExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1010005 /* SickAdsKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SickAdsKit.xcframework; path = ../../SickAdsKit.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1010004 /* SickAdsKit.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -33,6 +51,7 @@
 		G1010001 = {
 			isa = PBXGroup;
 			children = (
+				F1010005 /* SickAdsKit.xcframework */,
 				G1010002 /* SickAdsExample */,
 				G1010003 /* Products */,
 			);
@@ -66,15 +85,13 @@
 				S1010001 /* Sources */,
 				FR101001 /* Frameworks */,
 				R1010001 /* Resources */,
+				CF101001 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = SickAdsExample;
-			packageProductDependencies = (
-				SPD101001 /* SickAds */,
-			);
 			productName = SickAdsExample;
 			productReference = F1010004 /* SickAdsExample.app */;
 			productType = "com.apple.product-type.application";
@@ -103,9 +120,6 @@
 				Base,
 			);
 			mainGroup = G1010001;
-			packageReferences = (
-				LOC101001 /* XCLocalSwiftPackageReference "../.." */,
-			);
 			productRefGroup = G1010003 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -190,6 +204,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../../SickAdsKit.xcframework/ios-arm64",
+					"$(PROJECT_DIR)/../../SickAdsKit.xcframework/ios-arm64_x86_64-simulator",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Sick Ads Example";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -220,6 +239,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../../SickAdsKit.xcframework/ios-arm64",
+					"$(PROJECT_DIR)/../../SickAdsKit.xcframework/ios-arm64_x86_64-simulator",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Sick Ads Example";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -263,21 +287,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCLocalSwiftPackageReference section */
-		LOC101001 /* XCLocalSwiftPackageReference "../.." */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = ../..;
-		};
-/* End XCLocalSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		SPD101001 /* SickAds */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = LOC101001 /* XCLocalSwiftPackageReference "../.." */;
-			productName = SickAds;
-		};
-/* End XCSwiftPackageProductDependency section */
 
 	};
 	rootObject = PR101001 /* Project object */;

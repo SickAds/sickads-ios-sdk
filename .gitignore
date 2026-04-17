@@ -9,6 +9,9 @@ build/
 SickAdsKit.xcframework/
 *.xcframework.zip
 
+# Исходники SDK — только локально; в публичном репо только binaryTarget + релизы
+Sources/
+
 # Скрипт сборки XCFramework — опционально локально
 Scripts/
 

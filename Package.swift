@@ -1,10 +1,9 @@
 // swift-tools-version: 5.9
 import PackageDescription
 
-/// Бинарный XCFramework: [Releases](https://github.com/SickAds/sickads-ios-sdk/releases).
-/// Локальная пересборка: `./Scripts/build-xcframework.sh` (скрипт не в публичном репо).
+/// Исходный Swift Package: таргет `SickAdsKit`, продукт `SickAds`.
 ///
-/// В приложении: `import SickAdsKit`, `SickAds.setApiKey` / `showAd(completion:)`.
+/// В приложении: `import SickAdsKit`, затем `SickAds.configure(apiDomain:apiKey:)` и `showAd(adUnitHash:completion:)`.
 let package = Package(
     name: "SickAds",
     platforms: [
@@ -17,10 +16,12 @@ let package = Package(
         ),
     ],
     targets: [
-        .binaryTarget(
+        .target(
             name: "SickAdsKit",
-            url: "https://github.com/SickAds/sickads-ios-sdk/releases/download/0.2/SickAdsKit.xcframework.zip",
-            checksum: "11614ccfdb90674ba435298d37b9780a6f30b475cb5e3aa8c475ce8784442e91"
+            path: "Sources/SickAds",
+            resources: [
+                .process("Resources"),
+            ]
         ),
     ]
 )

@@ -9,8 +9,7 @@ build/
 SickAdsKit.xcframework/
 *.xcframework.zip
 
-# Исходники и скрипт сборки — локально, в публичный репозиторий не пушим
-Sources/
+# Скрипт сборки XCFramework — опционально локально
 Scripts/
 
 # Xcode — пользовательские данные

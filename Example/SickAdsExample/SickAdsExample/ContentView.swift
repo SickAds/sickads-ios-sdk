@@ -31,9 +31,12 @@ struct ContentView: View {
     }
 
     private func presentAd() {
-        SickAds.setApiKey("example-key")
+        SickAds.configure(
+            apiDomain: "YOUR_API_HOST.online",
+            apiKey: "YOUR_API_TOKEN"
+        )
 
-        SickAds.showAd { result in
+        SickAds.showAd(adUnitHash: "YOUR_AD_UNIT_HASH") { result in
             switch result {
             case .success:
                 lastResult = "Успех! Реклама закрыта!"

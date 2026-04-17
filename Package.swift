@@ -19,8 +19,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "SickAdsKit",
-            url: "https://github.com/SickAds/sickads-ios-sdk/releases/download/0.4.2/SickAdsKit.xcframework.zip",
-            checksum: "87d3871acbad2c04b205a46db81f9ddd4d4451477bc2216b66ff913bf97d9999"
+            url: "https://github.com/SickAds/sickads-ios-sdk/releases/download/0.4.3/SickAdsKit.xcframework.zip",
+            checksum: "9d4aee722cddabf20b4f3ac6ae463233f89a7f6f32970e2936b7d6e29eb5482c"
         ),
     ]
 )
